@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "bouncy-castle-blog"
+version = "0.1.0"
+description = ""
+authors = ["jonha892 <jhalstrup@googlemail.com>"]
+readme = "README.md"
+packages = [{include = "bouncy_castle_blog"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.3"
+matplotlib = "^3.7.0"
+tqdm = "^4.64.1"
+jupyter = "^1.0.0"
+torch = "^2.0.1"
+scikit-learn = "^1.3.0"
+torchtext = "^0.15.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
